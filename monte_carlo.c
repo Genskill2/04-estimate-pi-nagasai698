@@ -40,7 +40,7 @@ int main(void) {
 float mc_pi(int iter){
         int points_in_circle=0;
         float x,y;
-        fir(int i=0;i<iter;i++){
+        for(int i=0;i<iter;i++){
                 x=frandom();
                 y=frandom();
                 float dist=sqrt(pow(x,2)+pow(y,2));
