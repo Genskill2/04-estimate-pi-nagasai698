@@ -17,7 +17,6 @@ int main(void) {
   
   pi0 = mc_pi(25000);
   pi1 = mc_pi(25000);
-  printf("%f %f\n", pi0, pi1);
   
   if (pi0 == pi1) {
       printf("Two separate estimates of pi are exactly the same. This is unlikely.\n");
