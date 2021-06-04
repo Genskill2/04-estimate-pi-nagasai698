@@ -23,6 +23,7 @@ int main(void) {
     }
   }
 }
+
 float wallis_pi(int iter){
         float pi=1;
         for(int i=1;i<=iter;i++){
