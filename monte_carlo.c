@@ -37,6 +37,7 @@ int main(void) {
     }
   }
 }
+
 float mc_pi(int iter){
         int points_in_circle=0;
         float x,y;
